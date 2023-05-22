@@ -16,7 +16,7 @@ const Home = () => {
             Explore services
           </a>
           <Link
-            className="btn btn-outline-primary px-4 mx-md-3 mt-3 mt-md-0"
+            className="btn btn-outline-light px-4 mx-md-3 mt-3 mt-md-0"
             href="/about"
           >
             Learn more →
