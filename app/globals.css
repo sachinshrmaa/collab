@@ -18,32 +18,48 @@ body {
   color: #1f2d89;
 }
 
-
-.heading-hero{
+.heading-hero {
   font-size: 43px;
   font-weight: 700;
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-.para-hero{
+.para-hero {
   font-size: 20px;
   color: #2c2c2c;
 }
 
-.heading{
+.heading {
   font-family: "Plus Jakarta Sans", sans-serif;
 }
 
-
 .hero-section {
   height: 470px;
-  min-height: 350px; 
-  background: rgb(114,134,211);
-  background: radial-gradient(circle, rgba(114,134,211,1) 6%, rgba(179,210,253,1) 100%, rgba(236,249,255,1) 100%);
+  min-height: 350px;
+  background: rgb(114, 134, 211);
+  background: radial-gradient(
+    circle,
+    rgba(114, 134, 211, 1) 6%,
+    rgba(179, 210, 253, 1) 100%,
+    rgba(236, 249, 255, 1) 100%
+  );
 }
 
-
-.services{
+.services-section {
   height: 500px;
   background-color: #f6fcff;
+}
+
+@media only screen and (max-width: 640px) {
+  .hero-section, .services-section {
+    height: auto;
+  }
+
+  .heading-hero {
+    font-size: 30px;
+  }
+
+  .para-hero {
+    font-size: 17px;
+  }
 }

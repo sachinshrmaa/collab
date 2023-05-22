@@ -15,13 +15,16 @@ const Home = () => {
           <a className="btn btn-primary px-4" href="#services">
             Explore services
           </a>
-          <Link className="btn btn-outline-primary px-4 mx-3" href='/about'>
+          <Link
+            className="btn btn-outline-primary px-4 mx-md-3 mt-3 mt-md-0"
+            href="/about"
+          >
             Learn more →
           </Link>
         </div>
       </section>
 
-      <section className="services py-5 " id="services">
+      <section className="services-section py-5 " id="services">
         <div className="col-9 m-auto">
           <h1 className="text-center mb-3 heading">Services</h1>
           <p className="text-center mb-4">
